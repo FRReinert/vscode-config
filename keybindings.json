@@ -1,0 +1,65 @@
+[
+  // resize window
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.decreaseViewHeight"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.increaseViewHeight"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  // terminnal nav
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "command": "workbench.action.terminal.new",
+    "key": "alt+n",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+c",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.focusLastEditorGroup",
+    "key": "alt+b",
+    "when": "terminalFocus"
+  },
+  // handle folders
+  {
+    "key": "a",
+    "when": "explorerViewletFocus",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "d",
+    "when": "explorerViewletFocus",
+    "command": "deleteFile"
+  },
+  {
+    "key": "r",
+    "when": "explorerViewletFocus",
+    "command": "renameFile"
+  }
+]
