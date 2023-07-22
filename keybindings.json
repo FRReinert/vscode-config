@@ -61,5 +61,20 @@
     "key": "r",
     "when": "explorerViewletFocus",
     "command": "renameFile"
+  },
+  {
+    "key": "x",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "command": "filesExplorer.cut"
+  },
+  {
+    "key": "c",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "command": "filesExplorer.copy"
+  },
+  {
+    "key": "p",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "command": "filesExplorer.paste"
   }
 ]
